@@ -2,11 +2,6 @@
 
 """xmltramp: Make XML documents easily accessible."""
 
-__version__ = "2.18"
-__author__ = "Aaron Swartz"
-__credits__ = "Many thanks to pjz, bitsko, and DanC."
-__copyright__ = "(C) 2003-2006 Aaron Swartz. GNU GPL 2."
-
 __all__ = ['Element', 'Namespace', 'seed', 'load', 'parse', 'indent']
 
 if not hasattr(__builtins__, 'True'):
